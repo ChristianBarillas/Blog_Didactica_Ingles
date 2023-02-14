@@ -1,0 +1,66 @@
+section span {
+    margin-top: 100px;
+    color: white;
+    z-index: 10;
+    
+    padding: 20px;
+    position: absolute;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.1rem 0.1rem black;
+  
+}
+
+section img{
+
+    width: 100%;
+    max-height: 800px;
+}
+
+
+
+#week1{
+
+    width: 100%;
+    height: 1000px;
+    background-image: url(./media/oficial3.jpg);
+}
+
+
+
+#week2{
+
+    width: 100%;
+    height: 1000px;
+    background-image: url(./media/oficial2.jpg);
+}
+
+
+
+#week3{
+
+    width: 100%;
+    height: 1000px;
+    background-image: url(./media/oficial5.jpg);
+}
+
+
+
+footer{
+
+    background-color: #000000;
+    height: 150px;
+    width: 100%;
+    color: white;
+
+ 
+}
+
+.footer_text{
+
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
