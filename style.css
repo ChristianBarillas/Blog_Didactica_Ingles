@@ -86,9 +86,6 @@ span {
 #tabla1 tr{
 
   text-align: center;
- 
-
-
 
   
 }
@@ -103,3 +100,18 @@ span {
   font-weight: 400;
 }
 
+
+
+#section4 img {
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.english-class{
+
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
