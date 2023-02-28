@@ -16,7 +16,7 @@
   margin-top: 20px;
 
   width: 100%;
-  height: 100px;
+ 
   align-items: center;
   justify-content: space-evenly;
   background-color: white;
@@ -25,13 +25,6 @@
   transition: 0.3s ease-out;
 }
 
-.container2 {
-  height: 400px;
-}
-
-#section3 .container2 {
-  height: 800px;
-}
 
 #section3 > .container2 p {
   font-size: 15px;
@@ -58,10 +51,10 @@ span {
 }
 
 .foto-clases img {
-  max-width: 500px;
-  max-height: 500px;
-
+ 
   border-radius: 20px;
+ margin: 20px;
+ 
 }
 
 .f .english-class p {
@@ -69,25 +62,6 @@ span {
   text-align: justify;
 }
 
-@media (min-aspect-ratio: 16/9) {
-  .foto-clases img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .foto-clases img {
-   width: 50%;
-    height: 100%;
-    padding: 10px;
-  
-    
-  }
-}
-.comentario {
-  height: 400px;
-}
 
 
 #tabla1 tr{
@@ -132,62 +106,29 @@ span {
 }
 
 
-@media(max-aspect-ratio: 16/9){
-
-
-#section8 .foto-clases img{
-
-  width: auto;
-
-  height: 150px;
-
-  margin-top: 10px;
- 
- 
- 
- }
-}
-
-
-@media(min-aspect-ratio: 16/9){
-
-  #section8 .foto-clases  img{
-
- height: 200px;
- width: 100%;
- margin-top: 10px;
-
-
-}
-  
-}
 
 
 
 
-
-@media(min-aspect-ratio: 16/9){
-
-  .video-clases video{
-
-    height: auto;
-    width: 400px;
-    padding: 5px;
-  }
-  
-}
-
-@media(max-aspect-ratio: 16/9){
-
-  .video-clases video{
-
-    height: auto;
-    width: 250px;
-    padding: 5px;
-  }
-}
 
 #nombre_usuario{
 
   background-color: white;
+}
+
+
+.decoracion {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+ 
+}
+
+.decoracion img {
+
+max-width: 50%;
+
 }
